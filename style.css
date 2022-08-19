@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue1: hsl(217, 54%, 11%);
+    --Very-dark-blue2: hsl(216, 50%, 16%);
+    --Very-dark-blue3: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+.view {
+    position: relative;
+    top: 101px;
+    left: 101px;
+}
+
+.conteiner1 {
+    background: var(--Very-dark-blue1);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner2 {
+    background: var(--Very-dark-blue2);
+    width: 250px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-radius: 13px;
+}
+
+#img1 {
+    border-radius: 7px;
+    width: 250px;
+    position: relative;
+    top: -52px;
+}
+
+figure {
+    background: var(--Cyan);
+    height: 250px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--White);
+}
+
+
+
+#p1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color: var(--Soft-blue);
+    font-weight: 300;
+}
+
+.conteiner3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--Very-dark-blue3);
+    padding-bottom: 20px;
+}
+
+#p2 {
+    font-family: 'Outfit', sans-serif;
+    color: var(--Cyan);
+    font-size: 12px;
+}
+
+#p3 {
+    font-family: 'Outfit', sans-serif;
+    color: var(--Soft-blue);
+    font-size: 12px;
+}
+
+#p4 {
+    font-family: 'Outfit', sans-serif;
+    color: var(--Soft-blue);
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+span {
+    font-family: 'Outfit', sans-serif;
+    color: var(--White);
+}
+
+#img2 {
+    width: 25px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+#img1:hover {
+    opacity: 40%;
+}
